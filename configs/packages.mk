@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
     Busybox \
     ExactCalculator \
     Gallery2 \
+    KernelAdiutor \
     Launcher3 \
     messaging
 
