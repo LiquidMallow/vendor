@@ -5,5 +5,5 @@ PRODUCT_PACKAGES += \
     ThemesProvider
 
 PRODUCT_COPY_FILES += \
-    vendor/mallow/configs/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml \
-    vendor/mallow/configs/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
+    vendor/$(VENDOR)/configs/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml \
+    vendor/$(VENDOR)/configs/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml

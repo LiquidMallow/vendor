@@ -2,14 +2,10 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
-# Extra packages
-PRODUCT_PACKAGES += \
-    Busybox \
-    Viper4Android
-
 # Included packages
 PRODUCT_PACKAGES += \
     Browser \
+    Busybox \
     ExactCalculator \
     Gallery2 \
     Launcher3 \
